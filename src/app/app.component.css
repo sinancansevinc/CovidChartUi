@@ -1,0 +1,42 @@
+.toolbar{
+  background:#004a9f;
+  color: white;
+}
+.sidenav{
+  margin:16px!important;
+  width: 400px!important;
+  border-right: none;
+  background: #002b5c;
+  color: white;
+  border-radius: 10px;
+  padding: 16px;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.sidenavContainer{
+  height:100vh;
+}
+.content{
+  height: calc(100vh-98px);
+  margin: 16px;
+  display: flex;
+  margin-left: 32px;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  border-radius: 10px;
+}
+.countryNames{
+  color: white!important;
+}
+
+.mt-10{
+  margin-top: 25%!important;
+}
+.mb-10{
+  margin-bottom: 25%!important;
+}
+.notOverflow{
+  overflow-y:hidden!important;
+}

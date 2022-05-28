@@ -1,9 +1,9 @@
-<div class="mt-10 mb-10 notOverflow">
+<div class="notOverflow">
   <google-chart
     [type]="type"
     [data]="covidService.covidChartList"
-    [width]="1000"
-    [height]="700"
+    [width]="800"
+    [height]="350"
     [columns]="columnNames"
     [options]="options"
     [title]="title"
@@ -12,8 +12,8 @@
   <google-chart
     [type]="type"
     [data]="covidService.covidDeathChartList"
-    [width]="1000"
-    [height]="700"
+    [width]="800"
+    [height]="350"
     [columns]="deathColumnNames"
     [options]="deathOptions"
     [title]="title"

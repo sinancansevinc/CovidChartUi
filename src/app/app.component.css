@@ -6,7 +6,7 @@
   margin:16px!important;
   width: 400px!important;
   border-right: none;
-  background: #002b5c;
+  background: #0796b7;
   color: white;
   border-radius: 10px;
   padding: 16px;
@@ -32,10 +32,10 @@
 }
 
 .mt-10{
-  margin-top: 25%!important;
+  margin-top: 5%!important;
 }
 .mb-10{
-  margin-bottom: 25%!important;
+  margin-bottom: 5%!important;
 }
 .notOverflow{
   overflow-y:hidden!important;
